@@ -20,12 +20,12 @@ public class DeleteCharacters extends ConsoleProgram{
 	private String removeAllOccurences(String str, char ch) {
 
 		String removeChar = "";
-		for (int i = 0; i < str.length(); i++);
+		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) != ch) {
 				removeChar += str.charAt(i);
 			}
-			return removeChar;
+		}
+		return removeChar;
 	}
-	
 }
 
